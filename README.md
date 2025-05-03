@@ -4,15 +4,23 @@
 
 I'm an Australian-based software engineer and systems architect with a passion for automation, high-performance programming, and meaningful tools that eliminate repetitive work. I run my own dev company and build everything from fast AI pipelines to microcontroller-based hardware integrations.
 
+I believe that knowledge is more than just the language representing it.
+
 ---
 
 ## 🔭 I’m currently working on
 
-- 🧠 **FSS-RAG** — A hybrid CPU/GPU semantic search engine with memory-mapped indexing, deep reranking, and LLM-aware prep.
-- 🧠 **FSS-RAG** — Ingests most files into a fully indexed, cleaned and enhanced hybrid retrieval model.
-- 🧰 **Codebase Analytic Toolkit** — Advanced static analysis and visualisation for multi-language codebases.
-- 🌐 **LLM API Proxy** — Custom Ollama-compatible endpoints for chat, embeddings, reranking, summarisation, and metrics.
-- 🧪 **Embedded Dyno Controller** — Arduino + Pi system for real-time torque/RPM testing using sensors and PID control.
+- 🧠 **FSS-RAG** — A hybrid CPU/GPU semantic search engine with memory-mapped indexing, deep reranking, and LLM-aware document preparation.  
+  - Ingests nearly any file type into a fully indexed, cleaned, and enhanced hybrid retrieval model.
+  - By carefully breaking down and structuring the components, the best hardware and learning model are used for the task.
+  - Achieved millisecond query performance for advanced deep retrieval and sub ms for batch retrieval on modest hardware.
+  - Document ingestion speed/variability was proritised with ability to make sub document changes to the model with SIMD allowing live indexing during changes.
+  
+- 🧰 **Codebase Analytic Toolkit** — Advanced static analysis and visualisation for multi-language codebases, featuring function graphing, quality metrics, and vibe code hardening.
+
+- 🌐 **LLM API Proxy** — A unified interface for local machine learning models with endpoints for chat, embeddings, reranking, summarisation, and performance/token benchmarks, logs and metrics.
+
+- 🧪 **Embedded Dyno Controller** — Arduino + Raspberry Pi system for real-time torque and RPM testing, using calibrated sensors, EEPROM settings, and PID load control.
 
 ---
 
@@ -43,10 +51,11 @@ I'm an Australian-based software engineer and systems architect with a passion f
 
 ## 💬 Ask me about
 
-- Building your own Ollama stack from scratch  
+- Cleaning and optimising corporate data for improved LLM retrieval and coherence
 - Structuring codebases for analysis and refactoring  
 - Python memory optimisations, static analysis, and CPU alignment tricks  
-- How to eliminate boring jobs with software that makes life easier
+- How I am exploring the combination of my skills/tools to create hardening tools for easy to
+  understand and mainainable vibe coding on projects well over 5 million tokens 😉
 
 ---
 
@@ -61,6 +70,3 @@ I'm an Australian-based software engineer and systems architect with a passion f
 
 I can run a complete LLM stack, codebase analyser, AND do my day job in a van… and still have enough bandwidth left to teach my daughter German.
 
----
-
-> “Innovation is my philosophy. Presence is my practice.”
