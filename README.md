@@ -8,7 +8,8 @@ I'm an Australian-based software engineer and systems architect with a passion f
 
 ## 🔭 I’m currently working on
 
-- 🧠 **FSS-RAG** — A hybrid CPU/GPU semantic search engine with memory-mapped indexing, deep reranking, and LLM-aware document prep.
+- 🧠 **FSS-RAG** — A hybrid CPU/GPU semantic search engine with memory-mapped indexing, deep reranking, and LLM-aware prep.
+- 🧠 **FSS-RAG** — Ingests most files into a fully indexed, cleaned and enhanced hybrid retireval model.
 - 🧰 **Codebase Analytic Toolkit** — Advanced static analysis and visualisation for multi-language codebases.
 - 🌐 **LLM API Proxy** — Custom Ollama-compatible endpoints for chat, embeddings, reranking, summarisation, and metrics.
 - 🧪 **Embedded Dyno Controller** — Arduino + Pi system for real-time torque/RPM testing using sensors and PID control.
