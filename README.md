@@ -13,8 +13,13 @@ I believe that knowledge is more than just the language representing it.
 - 🧠 **FSS-RAG** — A hybrid CPU/GPU semantic search engine with memory-mapped indexing, deep reranking, and LLM-aware document preparation.  
   - Ingests nearly any file type into a fully indexed, cleaned, and enhanced hybrid retrieval model.
   - By carefully breaking down and structuring the components, the best hardware and learning model are used for the task.
-  - Achieved millisecond query performance for advanced deep retrieval and sub ms for batch retrieval on modest hardware.
-  - Document ingestion speed/variability was proritised with ability to make sub document changes to the model with SIMD allowing live indexing during changes.
+  - Achieved 22ms query performance for advanced deep retrieval and sub-ms for batch retrieval on modest hardware.
+  - Document ingestion speed/variability was prioritised with ability to make sub document changes to the model with SIMD allowing live indexing during changes.
+
+- 🎓 **FSS-Mini-RAG** — A lightweight, educational distillation of my production RAG system that bridges the gap between too-simple demos and enterprise complexity.
+  - Born from 2 years of RAG system development, designed for beginners who want results and developers who want to understand how RAG really works.
+  - Dual-mode interface: fast synthesis for quick answers, deep exploration for learning codebases.
+  - Built to be extended - use the AI explore mode to understand and build upon the codebase itself. Fork it and create something cool!
   
 - 🧰 **Codebase Analytic Toolkit** — Advanced static analysis and visualisation for multi-language codebases, featuring function graphing, quality metrics, and vibe code hardening.
 
@@ -24,9 +29,8 @@ I believe that knowledge is more than just the language representing it.
 
 ---
 
-## 🌱 I’m currently learning
+## 🌱 I'm currently learning
 
-- Rust and zero-cost abstraction design  
 - State space models and memory-efficient ML architectures
 - Utilising smaller models with the power of conventional processing to increase throughput
 - Advanced memory layout and instruction-level CPU/GPU optimisation
